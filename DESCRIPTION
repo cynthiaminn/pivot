@@ -2,10 +2,9 @@ Package: pivotWBcynthia
 Title: World Bank Data Transformation
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Cynthia", "Min", , "cindymin4@gmail.com", role = c("aut", "cre"))
+Description: Transforms World Bank maternal mortality data from wide format into long format.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.0
