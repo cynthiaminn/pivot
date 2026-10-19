@@ -1,3 +1,6 @@
-test_that("multiplication works", {
-  expect_equal(2 * 2, 4)
+test_that("should have 20 years worth of data", {
+  expect_equal(
+    length(unique(transform(maternal_mortality)$year)),
+    20
+  )
 })
